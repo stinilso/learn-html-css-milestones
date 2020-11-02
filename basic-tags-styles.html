@@ -2,50 +2,58 @@
 <html>
 
   <head>
-    <title>Basic Tags</title>
+
+    <title>Basic Tags Styles</title>
+
+    <style media="screen">
+      .styled-heading {color:gray; }
+      section > #blue-heading {color:blue; }
+      .gray-border {border-width:3px; border-color:gray; border-radius:3px; border-style:solid; padding: 10px; margin:10px; }
+    </style>
+
   </head>
 
   <body>
 
-    <h1>Basic Tags</h1>
+    <h1 class="styled-heading">Basic Tags</h1>
 
 
-    <section>
-      <h2>The paragraph <p> tag</h2>
+    <section id="paragraphtag">
+      <h2 id="blue-heading">The paragraph <p> tag</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sollicitudin tortor. Donec lectus metus, lacinia at leo vel, suscipit pulvinar quam. Pellentesque nec enim dolor. Praesent porttitor metus vitae velit fermentum, eget luctus leo blandit. Suspendisse sem lectus, imperdiet et massa eget, euismod suscipit est. Pellentesque quis suscipit nibh, vitae facilisis magna. Morbi luctus neque nec mi condimentum, in condimentum elit pharetra. Fusce accumsan bibendum pulvinar. Fusce erat magna, accumsan sed neque eu, luctus bibendum turpis. Fusce vitae lorem tellus. Nam ut efficitur tellus, in maximus neque. Integer metus elit, volutpat vitae ultricies id, facilisis ac felis. Nam dignissim libero eu turpis finibus consequat. Integer porta, justo vel dapibus facilisis, nibh nulla euismod ex, in ultrices tortor enim eu erat. Integer iaculis, tortor at facilisis lacinia, nisi urna viverra erat, mollis porttitor sem dui sed mi. Aliquam vestibulum, nibh in imperdiet luctus, ligula velit consectetur tellus, quis aliquet risus risus vitae tortor.</p>
     </section>
-    <section>
+    <section id="blockquotetag">
       <h2>The blockquote `<blockquote>` tag</h2>
       <blockquote cite="https://www.lipsum.com/feed/html">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sollicitudin tortor. Donec lectus metus, lacinia at leo vel, suscipit pulvinar quam. Pellentesque nec enim dolor. Praesent porttitor metus vitae velit fermentum, eget luctus leo blandit. Suspendisse sem lectus, imperdiet et massa eget, euismod suscipit est. Pellentesque quis suscipit nibh, vitae facilisis magna. Morbi luctus neque nec mi condimentum, in condimentum elit pharetra. Fusce accumsan bibendum pulvinar. Fusce erat magna, accumsan sed neque eu, luctus bibendum turpis. Fusce vitae lorem tellus. Nam ut efficitur tellus, in maximus neque. Integer metus elit, volutpat vitae ultricies id, facilisis ac felis. Nam dignissim libero eu turpis finibus consequat. Integer porta, justo vel dapibus facilisis, nibh nulla euismod ex, in ultrices tortor enim eu erat. Integer iaculis, tortor at facilisis lacinia, nisi urna viverra erat, mollis porttitor sem dui sed mi. Aliquam vestibulum, nibh in imperdiet luctus, ligula velit consectetur tellus, quis aliquet risus risus vitae tortor.
       </blockquote>
     </section>
-    <section>
+    <section id="preformattedtag">
       <h2>The pre-formatted text `<pre>`tag</h2>
       <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sollicitudin tortor. Donec lectus metus, lacinia at leo vel, suscipit pulvinar quam. Pellentesque nec enim dolor. Praesent porttitor metus vitae velit fermentum, eget luctus leo blandit. Suspendisse sem lectus, imperdiet et massa eget, euismod suscipit est. Pellentesque quis suscipit nibh, vitae facilisis magna. Morbi luctus neque nec mi condimentum, in condimentum elit pharetra. Fusce accumsan bibendum pulvinar. Fusce erat magna, accumsan sed neque eu, luctus bibendum turpis. Fusce vitae lorem tellus. Nam ut efficitur tellus, in maximus neque. Integer metus elit, volutpat vitae ultricies id, facilisis ac felis. Nam dignissim libero eu turpis finibus consequat. Integer porta, justo vel dapibus facilisis, nibh nulla euismod ex, in ultrices tortor enim eu erat. Integer iaculis, tortor at facilisis lacinia, nisi urna viverra erat, mollis porttitor sem dui sed mi. Aliquam vestibulum, nibh in imperdiet luctus, ligula velit consectetur tellus, quis aliquet risus risus vitae tortor.</pre>
     </section>
-    <section>
+    <section id="italictag" class="gray-border">
       <h2>`<em>` and `<i>`</h2>
       <p>Lorem ipsum dolor sit amet, <em>consectetur adipiscing elit.</em> Nam sed sollicitudin tortor. Donec lectus metus, lacinia at leo vel, suscipit pulvinar quam. Pellentesque nec enim dolor. Praesent porttitor metus vitae velit fermentum, eget luctus leo blandit. Suspendisse sem lectus, imperdiet et massa eget, euismod suscipit est. Pellentesque quis suscipit nibh, vitae facilisis magna. Morbi luctus neque nec mi condimentum, in condimentum elit pharetra. Fusce accumsan bibendum pulvinar. Fusce erat magna, accumsan sed neque eu, luctus bibendum turpis. <i>Fusce vitae lorem tellus.</i> Nam ut efficitur tellus, in maximus neque. Integer metus elit, volutpat vitae ultricies id, facilisis ac felis. Nam dignissim libero eu turpis finibus consequat. Integer porta, justo vel dapibus facilisis, nibh nulla euismod ex, in ultrices tortor enim eu erat. Integer iaculis, tortor at facilisis lacinia, nisi urna viverra erat, mollis porttitor sem dui sed mi. Aliquam vestibulum, nibh in imperdiet luctus, ligula velit consectetur tellus, quis aliquet risus risus vitae tortor.</p>
     </section>
-    <section>
+    <section id="boldtag" class="gray-border">
       <h2>`<strong>` and `<b>`</h2>
         <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> Nam sed sollicitudin tortor. Donec lectus metus, lacinia at leo vel, suscipit pulvinar quam. Pellentesque nec enim dolor. Praesent porttitor metus vitae velit fermentum, eget luctus leo blandit. Suspendisse sem lectus, imperdiet et massa eget, euismod suscipit est. Pellentesque quis suscipit nibh, vitae facilisis magna. Morbi luctus neque nec mi condimentum, in condimentum elit pharetra. Fusce accumsan bibendum pulvinar. Fusce erat magna, accumsan sed neque eu, luctus bibendum turpis. <b>Fusce vitae lorem tellus.</b> Nam ut efficitur tellus, in maximus neque. Integer metus elit, volutpat vitae ultricies id, facilisis ac felis. Nam dignissim libero eu turpis finibus consequat. Integer porta, justo vel dapibus facilisis, nibh nulla euismod ex, in ultrices tortor enim eu erat. Integer iaculis, tortor at facilisis lacinia, nisi urna viverra erat, mollis porttitor sem dui sed mi. Aliquam vestibulum, nibh in imperdiet luctus, ligula velit consectetur tellus, quis aliquet risus risus vitae tortor.</p>
     </section>
-    <section>
+    <section id="codetag">
       <!-- TEXT FROM https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_phrase_code -->
       <h2>`<code>`</h2>
         <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
     </section>
-    <section>
+    <section id="hyperlinktag">
       <h2>The `<a>` tag</h2>
       <p>Previous text copied from <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_phrase_code">w3schools.com</a>.</p>
     </section>
-    <section>
+    <section id="imgtag">
       <h2>The `<img>` tag</h2>
       <img src="assets/img/david-rose-field.png" alt="David Rose from Schitt's Creek">
     </section>
-    <section>
+    <section id="headertag">
       <h2>The different header tags `<h1>`, `<h2>`, `<h3>`, etc.</h2>
       <h1>h1</h1>
       <h2>h2</h2>
@@ -53,7 +61,7 @@
       <h4>h4</h4>
       <h5>h5</h5>
     </section>
-    <section>
+    <section id="listtag">
       <h2>Create multiple unordered lists using the `<ul>` and `<li>` tags.
         Create multiple ordered lists using the `<ol>` and `<li>` tags.
         Include other HTML inside the list item (`<li>`) tags, e.g., paragraphs,
@@ -75,14 +83,14 @@
         <li>Listed thing</li>
       </ul>
     </section>
-    <section>
+    <section id="tabletag">
       <h2>Create a 3x3 table using the `<table>`, `<tr>`, and `<td>` tags.
       Add headings using the `<th>` tag. Create two more tables of different dimensions.</h2>
       <table>
         <tr>
-          <th>Heading 1</th>
-          <th>Heading 2</th>
-          <th>Heading 3</th>
+          <th class="styled-heading">Heading 1</th>
+          <th class="styled-heading">Heading 2</th>
+          <th class="styled-heading">Heading 3</th>
         </tr>
         <tr>
           <td>cell</td>
@@ -102,11 +110,11 @@
       </table>
       <table>
         <tr>
-          <th>a</th>
-          <th>b</th>
-          <th>c</th>
-          <th>d</th>
-          <th>e</th>
+          <th class="styled-heading">a</th>
+          <th class="styled-heading">b</th>
+          <th class="styled-heading">c</th>
+          <th class="styled-heading">d</th>
+          <th class="styled-heading">e</th>
         </tr>
         <tr>
           <td>cell</td>
@@ -125,8 +133,8 @@
       </table>
       <table>
         <tr>
-          <th>first column</th>
-          <th>another column</th>
+          <th class="styled-heading">first column</th>
+          <th class="styled-heading">another column</th>
         </tr>
         <tr>
           <td>cell</td>
@@ -145,9 +153,6 @@
           <td>cell</td>
         </tr>
       </table>
-    </section>
-    <section>
-
     </section>
 
   </body>
